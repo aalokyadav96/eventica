@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+.tab {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    background-color: #f1f1f1;
+    margin-right: 5px;
+}
+.tab.active {
+    background-color: #fff;
+    border-bottom: none;
+    font-weight: bold;
+}
+.tab-content {
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
